@@ -66,13 +66,18 @@ Responsive media queries
   padding: 0;
 }
 
+#header-bottom .col-md-6, .col-md-4 {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
 #map iframe {
   width: 100%;
 }
 
 .location-text{
   padding: 7.5rem;
-
 }
 
 #main > .bg-color {
